@@ -1,0 +1,414 @@
+html{
+	font-size: 1rem;
+	font-family: "Roboto", Open sans;
+	font-weight: 800;
+}
+
+body{
+	background-color: #ddcd81;
+	color: #000;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 2.1rem;
+	font-weight: 1000;
+	font-family: "Merriweather", Open sans;
+}
+
+p{
+	font-family: "Roboto", Open sans;
+	font-weight: 800;
+}
+
+strong{
+	font-weight: 1200;
+}
+
+.pagewrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer{
+	width: 100%;
+	padding: 0.5rem;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.intro-container{
+	width: 100%;
+	height: auto;
+}
+
+.intro-container .intro-top{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.intro-container .intro-top h1{
+	font-size: 3.75rem;
+	color: #5a4583;
+	padding: 0 2em;
+}
+
+.intro-container .intro-top p{
+	font-size: 1.25rem;
+	padding: 0 1.5rem;
+}
+
+.intro-middle{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;	
+}
+
+.intro-middle .intro-middle-left{
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.intro-middle .intro-middle-left figure{
+	width: 75%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.intro-middle .intro-middle-left figure img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.intro-middle .intro-middle-left figure figcaption{
+	width: 100%;
+	height: auto;
+}
+
+.intro-middle .intro-middle-right{
+	width: 30%;
+	height: 70%;
+	margin: auto;
+	border: 1px solid yellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.intro-middle .intro-middle-right .profile-sub-heading{
+	border: 1px solid silver;
+	display: flex;
+	justify-content: center;
+	font-family: "Merriweather", Open sans;
+}
+
+.intro-middle .intro-middle-right .profile-sub-heading p{
+	font-size: 1.5rem;
+	font-family: "Merriweather", Open sans;
+	color: #121212;
+}
+
+#subheading{
+	font-size: 1.75rem;
+	font-weight: 1000;
+}
+
+.intro-middle .intro-middle-right .profile-desc{
+	width: 100%;
+	height: auto;
+	border: 1px solid yellow;
+	display: flex;
+	justify-content: center;
+}
+
+.intro-middle .intro-middle-right .profile-desc p{
+	font-size: 1.5rem;
+	margin: 0 1.2rem;
+}
+
+.intro-bottom{
+	width: 100%;
+	height: auto;
+	padding: 1rem;
+}
+
+.intro-bottom .img-box{
+	width: 45%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.intro-bottom .img-box img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.container .timeline-title h2{
+	font-size: 1.9rem;
+	font-family: "Merriweather", Open sans;
+	color: #2c2c2c;
+	padding-left: 1.25rem;
+}
+
+.container .timeline-title h3{
+	font-size: 1.5rem;
+	font-family: "Merriweather", Open sans;
+	color: #56356a;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 0.5rem;
+}
+
+.container .timeline-content{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	padding: 0.75em;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.container h2{
+	font-size: 1.75rem;
+	margin-left: 2rem;
+}
+
+.container .timeline-content h3{
+	font-size: 1.5rem;
+	font-family: "Merriweather", Open sans;
+}
+
+.container .timeline-content ul li{
+	font-size: 1.25rem;
+}
+
+blockquote{
+	width: 70%;
+	margin: auto;
+	font-style: italic;
+	border: 1px dotted #2d2d2d;
+	display: flex;
+	flex-direction: column;
+	background-color: #d5c291;
+	padding: 1rem;
+}
+
+blockquote p{
+	font-size: 1.25rem;
+	display: flex;
+	justify-content: center;
+}
+
+.container .law-container{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container .law-container .law-card{
+	width: 30%;
+	border: 1px dotted #2d2d2d;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 10px 5px;
+}
+.container h2{
+	font-family: "Merriweather", Open sans;
+	padding: 0.5rem;
+	color: #2c2c2c;
+}
+
+.container .law-container .law-card h3{
+	font-size: 1.4rem;
+	font-weight: 900;
+	color: #56356a;
+	font-family: "Merriweather", Open sans;
+	text-align: center;
+}
+
+.container .law-container .law-card p{
+	font-size: 1.25rem;
+	margin: auto;
+}
+
+#eq{
+	font-size: 1.9rem;
+	font-family: "Californian FB", Open sans;
+}
+
+.story-container{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.story-container h3{
+	font-size: 1.5rem;
+	font-family: "Merriweather", Open sans;
+	padding: 0 0.5rem;
+}
+
+.storyh1{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.storyh2{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.story-container h3 span{
+	font-size: 1.9rem;
+	color: #463550;
+	margin: 0 0.5rem;
+}
+
+.story-container .story-desc{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#linkstyle{
+	font-size: 1.125rem;
+}
+
+.story-container .story-desc a{
+	color: #220f46;
+	font-size: 1.3rem;
+	font-weight: 900;
+}
+
+.story-container .story-desc a:hover{
+	color: #505050;
+}
+
+.container .publication-container{
+	width: 100%
+	height: auto;
+	display: flex;
+}
+
+.publication-container .publish-time{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	padding: 0.75rem;
+}
+
+.publication-container .publish-time h3{
+	font-size: 1.25rem;
+	font-family: "Merriweather", Open sans;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.publication-container .publish-time .book-container{
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.publication-container .publish-time .book-container .book{
+	width: 100px;
+	height: 130px;
+	padding: 0.2rem;
+	border: 2px solid #621a1a;
+	background-color: #ad751f;
+	margin: 0.2rem;
+	border-radius: 5px;
+}
+
+.publication-container .publish-time .book-container .book img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 5px 5px 7px #523919;
+	border-radius: 5px;
+}
+
+.publication-container .publish-time .book-container .book img:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	box-shadow: 7px 7px 7px #562c09;
+}
+
+.container .reference-list{
+	width: 75%;
+	height: auto;
+	margin: 0.5rem auto;
+	border: 1px solid #2d2d2d;
+	display: flex;
+}
+
+.container .reference-list ul{
+	width: 100%;
+	height: auto;
+	list-style-type: none;
+}
+
+.container .reference-list ul li{
+	padding: 0.325rem;
+	display: flex;
+	justify-content: center;
+}
+
+.container .reference-list ul li a{
+	color: #6e1d0b;
+	display: flex;
+}
+
+.reference-list ul li a:hover{
+	color: #fd6060;
+}
+
+.footerstyle{
+	width: 100%;
+	padding: 0.5rem;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.footerstyle a{
+	color: #33a9fd;
+}
+
+.footerstyle .footertext1{
+	font-size: 0.95rem;
+}
+
+
